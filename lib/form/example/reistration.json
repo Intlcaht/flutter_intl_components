@@ -1,0 +1,59 @@
+{
+  "title": "User Registration Form",
+  "fields": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username",
+      "placeholder": "Enter your username",
+      "required": true
+    },
+    {
+      "type": "password",
+      "name": "password",
+      "label": "Password",
+      "placeholder": "Enter your password",
+      "required": true
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "required": true
+    },
+    {
+      "type": "select",
+      "name": "gender",
+      "label": "Gender",
+      "options": [
+        {
+          "label": "Male",
+          "value": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        }
+      ],
+      "required": true
+    },
+    {
+      "type": "checkbox",
+      "name": "subscribe",
+      "label": "Subscribe to newsletter"
+    },
+    {
+      "type": "textarea",
+      "name": "bio",
+      "label": "Bio",
+      "placeholder": "Tell us about yourself"
+    },
+    {
+      "type": "date",
+      "name": "dob",
+      "label": "Date of Birth",
+      "required": true
+    }
+  ]
+}
